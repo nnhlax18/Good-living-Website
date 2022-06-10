@@ -1,18 +1,20 @@
-*{
+* {
 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 
-    
 
 
-}
-body{
-    font-family:'Open Sans', sans-serif;
 
 }
-header{
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
     height: 100px;
 
     display: flex;
@@ -21,39 +23,44 @@ header{
 
 
 }
-ul{display:flex ;
+
+ul {
+    display: flex;
     list-style-type: none;
 
 
 
 }
-ul li a{
-    padding:0 20px;
+
+ul li a {
+    padding: 0 20px;
     text-decoration: none;
     color: #3a3a3a;
     display: inline-block;
 
 
 }
-li a ::after{
+
+li a ::after {
     content: '';
-    display:block;
+    display: block;
     height: 4px;
 
-    width : 0;
-    background :#c4c4f7;
-    transition : all.5s
+    width: 0;
+    background: #c4c4f7;
+    transition: all.5s
+}
+
+li a :hover::after {
+    width: 100%;
 
 }
-li a :hover::after{
-    width:100%;
 
-}
 main {
-    display:flex;
-    border:1px solid red;
+    display: flex;
+    border: 1px solid red;
     height: calc(100vh - 100px);
-    align-items:normal;
+    align-items: normal;
 
     justify-content: left;
 
@@ -63,23 +70,26 @@ main {
 
 
 }
-.hero-img{
 
-max-width: 670px;
-height: auto;
-}
-.content-left{
+.hero-img {
 
-width: 30%;
+    max-width: 670px;
+    height: auto;
 }
-main h1{
+
+.content-left {
+
+    width: 30%;
+}
+
+main h1 {
     font-size: 54px;
-    color:#133B4F;
+    color: #133B4F;
     text-transform: uppercase;
 
 }
 
-main h2{
+main h2 {
 
     font-size: 25px;
     color: #FCA70C;
@@ -91,22 +101,24 @@ main h2{
 main p {
     font-size: 14px;
     font-weight: 400;
-    color:#333;
+    color: #333;
     line-height: 31.5px;
-    margin:30px 0;
-    
+    margin: 30px 0;
+
 
 
 }
+
 img {
     border-radius: 50%;
 }
 
 img {
-max-width: 100px;
-height: auto;
+    max-width: 100px;
+    height: auto;
 }
+
 .responsive {
     width: 100%;
     height: auto;
-  }
+}
